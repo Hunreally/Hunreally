@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/Get_Map_String"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get_Map_String" />
+
+    <Button
+        android:id="@+id/Get_Map_JsonObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get_Map_JsonObject" />
+    
+    <Button
+        android:id="@+id/Post_Map_String"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post_Map_String" />
+    
+    <Button
+        android:id="@+id/Post_JsonObj_String"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post_JsonObj_String" />
+    
+    <Button
+        android:id="@+id/Post_Map_JsonObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post_Map_JsonObject" />
+    
+    <Button
+        android:id="@+id/Post_JsonObj_JsonObj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post_JsonObj_JsonObj" />
+    
+
+</LinearLayout>
